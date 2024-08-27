@@ -27,3 +27,12 @@
 
 ![KOSPI](https://github.com/user-attachments/assets/a226200f-0ce4-486a-ab3f-5cf87b2ad574)
 
+
+## 4. 증빙 자료
+
+---
+
+- KCI 우수등재
+    - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003107079
+- JKIIE 학회지 게재
+    - https://jkiie.org/_PR/view/?aidx=41593&bidx=3767#!po=5.55556

@@ -1,12 +1,13 @@
-## BusinessAI Capston : 금융 특화 감정분석 모델과 딥러닝 시계열 예측 모델을 활용한 코스피 지수 예측
+## 금융 특화 감정분석 모델과 딥러닝 시계열 예측 모델을 활용한 코스피 지수 예측
+### Kospi Index Prediction using a Financial-specific Sentiment Analysis and Deep Learning-based Time Series Prediction Model
 
 ---
 
-## 1. 배경 및 키워드
+## 1. 초록 및 키워드
 
 ---
 
-- Abstract : 본 논문은 뉴스 데이터 기반 감정 분석 모형과 딥러닝 기반 시계열 예측 모형을 이용한 코스피 지수 예측 방법론을 제시한다. 코스피 지수의 종가를 목표 변수로 하고 금 가격 등 거시 경제 지표와 감정 점수 등 시장 감정 지표를 독립 변수로 사용했다. 코스피 관련 뉴스 데이터를 수집하고 전처리하여 제목 또는 요약 기사를 이용하여 감정 점수를 계산하는 데 사용했다. 이어서 날짜별 KLUE-BERT 모형 기반 감정 점수와 날짜별 KoFinBERT 모형 기반 감정 점수를 추출했다. 시계열 예측 모형으로는 LSTM, GRU, CNN-LSTM, CNN-GRU를 사용했다. 변수와 모형의 조합으로 실험을 실시한 결과 요약 기사에 KLUE-BERT를 적용하고 CNN-GRU 모형을 사용했을 때 가장 좋은 성능을 보였다.
+- Abstract : This paper presents a methodology for predicting the KOSPI index using a news data-based sentiment analysis model and a deep learning-based time series prediction model. The closing price of the KOSPI index was used as a target variable, and macroeconomic indicators such as the gold price and market sentiment indicators such as sentiment scores were used as independent variables. We collected and preprocessed the KOSPI-related news data and used them in calculating the sentiment score by using the title or the summarized article. Subsequently, the KLUE-BERT model-based sentiment score by date and the KoFinBERT model-based sentiment score by date were extracted. LSTM, GRU, CNN-LSTM, and CNN-GRU were used as time series prediction models. As a result of conducting an experiment by combination of variables and models, the best performance was achieved when KLUE-BERT is applied on the summarized article and the CNN-GRU model were used
 
 - keyword : Deep Learning, BERT, Sentiment Analysis, LSTM, Kospi Index Prediction
 
@@ -14,14 +15,15 @@
 
 ---
 
-- 투고처: 대한산업공학회
-- 투고방법 : 대한산업공학회지 온라인 논문토고관리시스템에서 투고절차 진행
+- Published : Journal of the Korean Institute of Industrial Engineers - Vol.50, No.4, pp.240-250(11 pages)
+- ISSN: 1225-0988 (Print) 2234-6457 (Online)
+- Print publication date 15 Aug 2024
+- Received 12 Jan 2024 Accepted 05 Feb 2024
 
 
-## 3. 논문 작성 기간
+## 3. 모델 구조
 
 ---
 
-- 논문 작성 기간 : 2023년 9월 1일 ~ 2024년 2월 5일
-
+![KOSPI](https://github.com/user-attachments/assets/a226200f-0ce4-486a-ab3f-5cf87b2ad574)
 
